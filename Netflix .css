@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color:white;
+}
+.header{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(w1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:10px 8%;
+    position: relative;
+}
+.sign h1{
+    font-size:32px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top:20%;
+
+}
+.sign{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    width:52%;
+    margin-left: 36%;
+    height:80%;
+    padding-right: 40%;
+
+}
+.sign input{
+    width:367%;
+    height:3.5rem;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    padding:5%;
+    background:#3333;
+    border:0;
+    border-radius:5px;
+    opacity: 0.9;
+    background: #333;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    font-size: 18px;
+}
+button{
+    border:0;
+    outline:0;
+    background:red;
+    color:white;
+    padding:7px 20px;
+    font-size:24px;
+    border-radius: 4px;
+    margin-left:30%;
+    margin-top: 20px;
+    width:360%;
+    height:10%;
+    margin-top:30%;
+   
+
+}
+.label{
+    margin-left: 30%;
+    
+}
+.footer{
+    padding:50px 15% 10px;
+    border-top: 6px solid grey;
+    color:white;
+}
+
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom:30px;
+    }
+    .footer .col{
+        flex-basis: 25%;
+        flex-grow: 1;
+        margin-bottom: 20px;
+    }
+    .footer .col a{
+        display: block;
+        text-decoration: none;
+        color:grey;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .footer .row{
+        align-items: flex-start;
+        padding: 10px 0;
+    }
+    .footer .language-btn{
+        color:white;
+        padding:10px 20px;
+        border-radius: 3px;
+    }
+    .copyright-text{
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+
+    }
+ .sign h2 {
+    display: flex;
+    font-size: 14px;
+    margin:16px 0px 0px;
+    width: 20%;
+    padding:0.5%;
+
+ }
+ 
